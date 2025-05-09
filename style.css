@@ -26,17 +26,17 @@ body {
 .slideshow {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
   position: relative;
-}
+    width: 100%;
+    height: calc(100vh - 150px);
+    margin: 0;
+  }
 
-.slide {
-  width: 1000px;
-  display: none;
-}
-
-.slide:first-child {
-  display: block;
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    object-fit: cover;
 }
 
 .bilde-img {
