@@ -10,9 +10,10 @@ body {
   justify-content: center;
   gap: 15px;
   background: #ccc;
-  padding: 10px;
-  width: 100%;
-  margin: 0;
+  padding: 10px 20px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 30px;
 }
 
 .menu a {
