@@ -28,16 +28,3 @@ menuItems.forEach(item => {
             alert('Šī lapa vēl nav pieejama!');
         }
     });
-});
-function showSlide(index) {
-    slides.forEach(slide => slide.style.display = 'none');
-    slides[index].style.display = 'block';
-}
-
-function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-}
-
-
-setInterval(nextSlide, 3000);
