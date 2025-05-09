@@ -30,8 +30,8 @@ body {
   justify-content: center;
   position: relative;
   width: 100%;
-  height: calc(100vh - 100px);
-  margin: 0;
+  height: calc(100vh - 150px);
+  margin-top: -20px;
   }
 
   .slide {
@@ -73,7 +73,7 @@ h1{text-align: center;}
 
 
 footer {
-  background: #f4f4f4;
+  background: #ffffff;
   padding: 30px 20px;
 }
 

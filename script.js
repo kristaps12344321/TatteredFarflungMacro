@@ -12,13 +12,13 @@ function nextSlide() {
     showSlide(currentSlide);
 }
 
-// Sākt slaidrādi, kad lapa ielādējas
+
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide);
     setInterval(nextSlide, 3000);
 });
 
-// Menu click handlers
+
 const menuItems = document.querySelectorAll('.menu a');
 menuItems.forEach(item => {
     item.addEventListener('click', (e) => {
